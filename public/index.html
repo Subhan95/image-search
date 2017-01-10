@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Search</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="custom.css">
+</head>
+<body>
+	<div class="container-fluid" style="min-height: 95%">
+		<h1>Image </h1>
+	<p>Given a valid url endpoint of the form /api/imagesearch/{query}?offset={number} , gives {number} images corresponding to the search term {query}.</p>
+	<p>eg:</p>
+	<ul>
+		<p><a href="/api/latest/imagesearch">/api/latest/imagesearch</a></p>
+		<p>gives</p>
+		<p>An array of 10 objects with each object corresponding to a particular search query.</p>
+	</ul>
+
+	<p>Given a valid url endpoint of the form /api/latest/imagesearch , gives the last 10 search queries and the time at which they were queried</p>
+	<p>eg:</p>
+	<ul>
+		<p><a href="/api/imagesearch/cats?offset=10">/api/imagesearch/cats?offset=10</a></p>
+		<p>gives</p>
+		<p>An array of 10 objects with each object corresponding to a single image obtained from the query 'cats'</p>
+	</ul>
+
+	
+	</div>
+	<footer class="footer">
+      <div class="container text-center">
+        Created by <a href="https://www.mohdsubhan.me" target="_blank">Subhan</a>
+      </div>
+    </footer>
+	
+</body>
+</html>

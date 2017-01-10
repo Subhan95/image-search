@@ -20,7 +20,7 @@ mongoose.connect(dbUri);
 
 var Search = mongoose.model('Search',searchSchema);
 
-app.use(pretty({ query: 'pretty' }));
+app.use(express.static(path.join(__dirname,'public')))
 
 app.get('/api/imagesearch/:uri', function(req, res) {
 	var searchString = decodeURIComponent(req.params.uri);
