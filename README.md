@@ -49,8 +49,8 @@ returns
 An array of 10 objects with each object corresponding to a single image obtained from the query 'cats'
 
 ##Builtwith
-1. express(https://expressjs.com/)   
-2. mongoose(http://mongoosejs.com/)
+1. [express](https://expressjs.com/)   
+2. [mongoose](http://mongoosejs.com/)
 
 View other dependencies in package.json
 
