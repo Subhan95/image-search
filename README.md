@@ -10,7 +10,7 @@ An API that gives links to images given the query and number of results desired.
 2. [npm](https://www.npmjs.com)
 3. [mongodb](https://www.mongodb.com/)
 
-###Installing
+###Installation
 Clone the project
 
 ```git
