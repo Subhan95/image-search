@@ -25,12 +25,17 @@ npm install
 
 to install the dependencies
 
-###For development
+###Development
 Rename .env.template to .env
 
 The project uses MongoDB to store data so make sure you have it installed. Use the MONGO_URI to make sure that the service has access to a DB
 
 Also sign up for google custom search API and insert the API_KEY and CX in the .env file.
+
+##Deployment
+MONGO_URI Use a third party service like [mLab](https://mlab.com) to make a MongoDB database and note down the access point.
+
+Remaining variables remain the same
 
 ##Usage
 
